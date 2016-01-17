@@ -1,6 +1,25 @@
 # GearVR-UnrealEngine4
 A simple game using Unreal Engine 4.11.2 for GearVR
 
+**Table of content**
+
+- [1 Introduction](#1-introduction)
+- [2 Requirements](#2-requirements)
+	- [2.1 General](#21-general)
+	- [2.2 Mac](#22-mac)
+	- [2.3 Windows](#23-windows)
+- [3 Instillation](#3-instillation)
+	- [3.1 Mac](#31-mac)
+		- [3.1.1 Android Studio](#311-android-studio)
+	- [3.2 Enabling Android Developer Options](#32-enabling-android-developer-options)
+	- [3.3 Getting device ID](#33-getting-device-id)
+	- [3.4 Downloading `Oculus Signature File (osig)` and placing it in UE](#34-downloading-oculus-signature-file-osig-and-placing-it-in-ue)
+	- [3.4 Installing `CodeWorks for Android`](#34-installing-codeworks-for-android)
+- [4 Developing a game](#4-developing-a-game)
+- [5 Packing it up for Android](#5-packing-it-up-for-android)
+	- [5.1 Package Configuration](#51-package-configuration)
+	- [5.2 Packing](#52-packing)
+
 ## 1 Introduction
 
 In this tutorial I will be going to develop a simple environment where the first person player can walk around. This game was developed in Mac and should be similar to windows. Please see "Note" where I would be including some important points about the structure and running of the game.
