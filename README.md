@@ -39,3 +39,29 @@ In this tutorial I will be going to develop a simple environment where the first
 
 1. A 2015 Samsung Galaxy phone i.e. S6, S6 edge, S6 edge+ or Note 5.
 2. Samsung Gear VR.
+
+## 3 Instillation
+
+### 3.1 Mac
+
+#### 3.1.1 Android Studio
+
+1. Download [Android Studio](http://developer.android.com/sdk/index.html).
+2. Open it and move it to `Application`.
+3. Open the application and follow the instillation process.
+4. Once the instillation process is done open the application and do the follow
+  1. Click on `Android Studio -> Preference`
+  2. Click on `Appreance & Behavior -> System Settings -> Android SDK` and tick on `Android 5.0.1` and `Android 5.1.1`.
+
+**Installing command line tools**
+
+1. Open `Terminal`.
+2. Type `nano .bash_profile` and type the following in it:
+
+  ```shell
+  # Android
+  export PATH="/Users/akshayrajgollahalli/Library/Android/sdk/platform-tools:$PAT$
+  export PATH="/Users/akshayrajgollahalli/Library/Android/sdk/tools:$PATH"
+  ```
+4. To save press `Control + x` and then press `y`.
+3. Restart `Terminal` and type `android` to see if the tools are working.
