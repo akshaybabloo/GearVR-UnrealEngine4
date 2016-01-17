@@ -1,6 +1,8 @@
 # GearVR-UnrealEngine4
 A simple game using Unreal Engine 4.11.2 for GearVR
 
+> Note 1: For Mac users make sure you download Java 6 -> [https://support.apple.com/kb/dl1572](https://support.apple.com/kb/dl1572) and Java 7.
+
 **Table of content**
 
 - [1 Introduction](#1-introduction)
@@ -83,7 +85,7 @@ In this tutorial I will be going to develop a simple environment where the first
   export PATH="/Users/<user>/Library/Android/sdk/tools:$PATH"
   ```
 
-  > Note 1: `<user>` should be replaced by your user name.
+  > Note 2: `<user>` should be replaced by your user name.
 
 4. To save press `Control + x` and then press `y`.
 3. Restart `Terminal` and type `android` to see if the tools are working.
