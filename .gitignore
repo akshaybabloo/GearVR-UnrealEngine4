@@ -56,3 +56,6 @@ GearVR_UnrealEngine4/Intermediate/*
 
 # Cache files for the editor to use
 GearVR_UnrealEngine4/DerivedDataCache/*
+
+GearVR_UnrealEngine4/Package/*
+
