@@ -60,7 +60,7 @@ In this tutorial I will be going to develop a simple environment where the first
 
   ```shell
   # Android
-  export PATH="/Users/akshayrajgollahalli/Library/Android/sdk/platform-tools:$PAT$
+  export PATH="/Users/akshayrajgollahalli/Library/Android/sdk/platform-tools:$PATH"
   export PATH="/Users/akshayrajgollahalli/Library/Android/sdk/tools:$PATH"
   ```
 4. To save press `Control + x` and then press `y`.
