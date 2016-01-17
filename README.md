@@ -60,9 +60,12 @@ In this tutorial I will be going to develop a simple environment where the first
 
   ```shell
   # Android
-  export PATH="/Users/akshayrajgollahalli/Library/Android/sdk/platform-tools:$PATH"
-  export PATH="/Users/akshayrajgollahalli/Library/Android/sdk/tools:$PATH"
+  export PATH="/Users/<user>/Library/Android/sdk/platform-tools:$PATH"
+  export PATH="/Users/<user>/Library/Android/sdk/tools:$PATH"
   ```
+
+  > Note 1: `<user>` should be replaced by your user name.
+
 4. To save press `Control + x` and then press `y`.
 3. Restart `Terminal` and type `android` to see if the tools are working.
 
@@ -78,3 +81,5 @@ In this tutorial I will be going to develop a simple environment where the first
   <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/USBDebug.png" alt="New Project" width="300"></p>
 
 4. Once you connect your phone to the system, it will ask you to confirm the connected computers RSA KEY. Click `Ok` to continue.
+
+### 3.3 Getting device ID
