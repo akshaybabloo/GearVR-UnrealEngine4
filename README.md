@@ -83,3 +83,16 @@ In this tutorial I will be going to develop a simple environment where the first
 4. Once you connect your phone to the system, it will ask you to confirm the connected computers RSA KEY. Click `Ok` to continue.
 
 ### 3.3 Getting device ID
+
+Make sure you have your phone connected to the computer and the `USB debugging` is switched on. Open `Terminal` and type in `adb devices`. This will print of an alpha numeric/numeric key something like this.
+
+```
+List of devices attached
+1234567891011123	device
+```
+
+### 3.4 Downloading `Oculus Signature File (osig)` and placing it in UE
+
+Copy the above number and goto [https://developer.oculus.com/osig/](https://developer.oculus.com/osig/) and paste it in the text field then click on `Download File`. `oculussig_1234567891011123` file will be downloaded.
+
+Move this file to `/Users/Shared/UnrealEngine/4.10/Engine/Build/Android/Java/assets/`
