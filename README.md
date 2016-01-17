@@ -71,8 +71,10 @@ In this tutorial I will be going to develop a simple environment where the first
 1. Goto `Settings -> About -> Software Info` and click on `Build Number` **seven** times.
 2. Now go back, You should now see `Developer Options`.
 
-  <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/DevOpti.png" alt="New Project" width="400"></p>
+  <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/DevOpti.png" alt="New Project" width="300"></p>
 
 3. Click on `Developer Options` and enable `USB debugging`
 
-  <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/USBDebug.png" alt="New Project" width="400"></p>
+  <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/USBDebug.png" alt="New Project" width="300"></p>
+
+4. Once you connect your phone to the system, it will ask you to confirm the connected computers RSA KEY. Click `Ok` to continue.
