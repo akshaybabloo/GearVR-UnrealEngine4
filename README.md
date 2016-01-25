@@ -7,24 +7,25 @@ A simple game using Unreal Engine 4.11.2 for GearVR
 
 - [1 Introduction](#1-introduction)
 - [2 Requirements](#2-requirements)
-	- [2.1 General](#21-general)
-	- [2.2 Mac](#22-mac)
-	- [2.3 Windows](#23-windows)
+    - [2.1 General](#21-general)
+    - [2.2 Mac](#22-mac)
+    - [2.3 Windows](#23-windows)
 - [3 Instillation](#3-instillation)
-	- [3.1 Mac](#31-mac)
-		- [3.1.1 Android Studio](#311-android-studio)
-	- [3.2 Enabling Android Developer Options](#32-enabling-android-developer-options)
-	- [3.3 Getting device ID](#33-getting-device-id)
-	- [3.4 Downloading `Oculus Signature File (osig)` and placing it in UE](#34-downloading-oculus-signature-file-osig-and-placing-it-in-ue)
-	- [3.4 Installing `CodeWorks for Android`](#34-installing-codeworks-for-android)
+    - [3.1 Mac](#31-mac)
+        - [3.1.1 Android Studio](#311-android-studio)
+    - [3.2 Enabling Android Developer Options](#32-enabling-android-developer-options)
+    - [3.3 Getting device ID](#33-getting-device-id)
+    - [3.4 Downloading `Oculus Signature File (osig)` and placing it in UE](#34-downloading-oculus-signature-file-osig-and-placing-it-in-ue)
+    - [3.4 Installing `CodeWorks for Android`](#34-installing-codeworks-for-android)
 - [4 Developing a game](#4-developing-a-game)
 - [5 Packing it up for Android](#5-packing-it-up-for-android)
-	- [5.1 Package Configuration](#51-package-configuration)
-	- [5.2 Packing](#52-packing)
+    - [5.1 Package Configuration](#51-package-configuration)
+    - [5.2 Packing](#52-packing)
+- [6 Installing it on Android](#6-installing-it-on-android)
 
 ## 1 Introduction
 
-In this tutorial I will be going to develop a simple environment where the first person player can walk around. This game was developed in Mac and should be similar to windows. Please see "Note" where I would be including some important points about the structure and running of the game.
+In this tutorial, I will be going to develop a simple environment where the first person player can walk around. This game was developed on Mac and should be similar to windows. Please see "Note" where I would be including some important points about the structure and running of the game.
 
 ## 2 Requirements
 
@@ -69,8 +70,8 @@ In this tutorial I will be going to develop a simple environment where the first
 
 1. Download [Android Studio](http://developer.android.com/sdk/index.html).
 2. Open it and move it to `Application`.
-3. Open the application and follow the instillation process.
-4. Once the instillation process is done open the application and do the follow
+3. Open the application and follow the installation process.
+4. Once the installation process is done, open the application and do the follow
   1. Click on `Android Studio -> Preference`
   2. Click on `Appreance & Behavior -> System Settings -> Android SDK` and tick on `Android 5.0.1` and `Android 5.1.1`.
 
@@ -85,7 +86,7 @@ In this tutorial I will be going to develop a simple environment where the first
   export PATH="/Users/<user>/Library/Android/sdk/tools:$PATH"
   ```
 
-  > Note 2: `<user>` should be replaced by your user name.
+  > Note 2: `<user>` should be replaced by your username.
 
 4. To save press `Control + x` and then press `y`.
 3. Restart `Terminal` and type `android` to see if the tools are working.
@@ -97,7 +98,7 @@ In this tutorial I will be going to develop a simple environment where the first
 
   <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/DevOpti.png" alt="New Project" width="300"></p>
 
-3. Click on `Developer Options` and enable `USB debugging`
+3. Click on `Developer Options` and enable `USB debugging.'
 
   <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/USBDebug.png" alt="New Project" width="300"></p>
 
@@ -105,16 +106,16 @@ In this tutorial I will be going to develop a simple environment where the first
 
 ### 3.3 Getting device ID
 
-Make sure you have your phone connected to the computer and the `USB debugging` is switched on. Open `Terminal` and type in `adb devices`. This will print of an alpha numeric/numeric key something like this.
+Make sure you have your phone connected to the computer, and the `USB debugging` is switched on. Open `Terminal` and type in `adb devices`, this will print of an alphanumeric/numeric key something like this.
 
 ```
 List of devices attached
-1234567891011123	device
+1234567891011123    device
 ```
 
 ### 3.4 Downloading `Oculus Signature File (osig)` and placing it in UE
 
-Copy the above number and goto [https://developer.oculus.com/osig/](https://developer.oculus.com/osig/) and paste it in the text field then click on `Download File`. `oculussig_1234567891011123` file will be downloaded.
+Copy the above number and go to [https://developer.oculus.com/osig/](https://developer.oculus.com/osig/) and paste it in the text field then click on `Download File`. `oculussig_1234567891011123` file will be downloaded.
 
 Move this file to `/Users/Shared/UnrealEngine/4.10/Engine/Build/Android/Java/assets/`
 
@@ -144,7 +145,7 @@ Android Toolchain
 
 Please see my tutorial on [UnrealEngine 4](https://github.com/akshaybabloo/UnrealEngine_4_Notes).
 
-> Note 2: The game developed in this tutorial is only a sample environment generated by UnrealEngine.
+> Note 3: The game developed in this tutorial is only a sample environment generated by UnrealEngine.
 
 ## 5 Packing it up for Android
 
@@ -182,3 +183,9 @@ And then this:
 Do the following:
 
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/Packing.png" alt="New Project" width="700"></p>
+
+## 6 Installing it on Android
+
+> Note 4: Make sure you have connect you phone before proceeding.
+
+Open `Android_ETC2` folder and double click on `Install_GearVR-UnrealEngine4_Development-armv7-es2.command`. This will open `Terminal` and install the software for you.
