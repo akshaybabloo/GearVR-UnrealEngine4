@@ -1,7 +1,7 @@
 # GearVR-UnrealEngine4
-A simple game using Unreal Engine 4.11.2 for GearVR
+A simple game using Unreal Engine 4.10.* and 4.11.2 for GearVR
 
-> Note 1: For Mac users make sure you download Java 6 -> [https://support.apple.com/kb/dl1572](https://support.apple.com/kb/dl1572) and Java 7.
+> Note 1: For Mac users make sure you download Java 6 -> [https://support.apple.com/kb/dl1572](https://support.apple.com/kb/dl1572) and Java 7. The setup is the same for UnrealEngine 4.11.
 
 **Table of content**
 
@@ -59,7 +59,7 @@ In this tutorial, I will be going to develop a simple environment where the firs
 
 **Hardware**
 
-1. A 2015 Samsung Galaxy phone i.e. S6, S6 edge, S6 edge+ or Note 5.
+1. A 2015 Samsung Galaxy phone i.e. S6, S6 edge, S6 edge+, S7, S7 edge or Note 5.
 2. Samsung Gear VR.
 
 ## 3 Instillation
@@ -118,6 +118,8 @@ List of devices attached
 Copy the above number and go to [https://developer.oculus.com/osig/](https://developer.oculus.com/osig/) and paste it in the text field then click on `Download File`. `oculussig_1234567891011123` file will be downloaded.
 
 Move this file to `/Users/Shared/UnrealEngine/4.10/Engine/Build/Android/Java/assets/`
+
+> Note for UnrealEngine 4.11: If you can find `assets` folder, create one and move the file to it.
 
 ### 3.4 Installing `CodeWorks for Android`
 
