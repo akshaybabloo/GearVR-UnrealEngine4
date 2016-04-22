@@ -162,7 +162,11 @@ Then, make sure you have enabled the following:
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/Plugins1.png" alt="New Project" width="700"></p>
 
 
-Next open your `Project Settings...`
+Next open your `Project Settings...`, Go to `Target Hardware` and do the following:
+
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/TargetHardware.png" alt="New Project" width="700"></p>
+
+Then do this:
 
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/GearVR-UnrealEngine4/master/Screenshots/ProjectSettingsMenu.png" alt="New Project" width="700"></p>
 
